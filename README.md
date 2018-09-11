@@ -21,4 +21,4 @@ fastgit() {
 
 Then run ```source ~/.bash_profile```
 
-You can now run in your git folder: ```fastgit "Your commit" ```
+You can now run in your git folder: ```fastgit "Your commit description" ```
