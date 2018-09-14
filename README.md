@@ -63,15 +63,10 @@ Add to your ``` ~/.bash_profile ``` the following code.
 ```bash
 
 popularDir() {
-	cd $PATH
+	cd '$PATH'
 }
 ```
 
 Then run ```source ~/.bash_profile```
 
-You can now cd to your popular directory by running `popularDir`.
-
-
-
-
- 
+You can now cd to your popular directory by running `popularDir` from anywhere in your command prompt.
