@@ -1,6 +1,8 @@
 # Fast git
 Bash script that allows you to commit and push to your repository fast.
 
+Feel free to send a pull request to add more.
+
 Often times, when working on small personal projects, we need to quickly add content to the working tree, record the changes and update the remote server.
 
 But typing the git commands can be very repetitive which is why automating can help streamline that process.
