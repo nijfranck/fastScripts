@@ -16,7 +16,7 @@ Add to your ``` ~/.bash_profile ``` the following code.
 
 fastgit() {
 	git add .
-	git commit -m '$*'
+	git commit -m $1
 	git push
 }
 ```
@@ -47,7 +47,7 @@ Add to your ``` ~/.bash_profile ``` the following code.
 
 fastheroku() {
 	git add .
-	git commit -am '$*'
+	git commit -am $1
 	git push heroku master
 }
 ```
